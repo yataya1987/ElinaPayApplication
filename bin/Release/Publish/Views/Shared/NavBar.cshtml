@@ -1,0 +1,49 @@
+﻿
+
+@if (User.Identity.IsAuthenticated)
+{
+<ul class="nav navbar-nav navbar-lift">
+    <li>
+
+
+    <li role="separator" class="divider"></li>
+    @if (User.IsInRole("Admin"))
+    {
+        <li>
+            <a href="~/User/UserList"> <span class="glyphicon glyphicon-user"></span> Users</a>
+
+        </li>
+        <li>
+            <a href="~/Skill/Index"> <span class="glyphicon glyphicon-lock"></span> Skills</a>
+        </li>
+        <li>
+            <a href="~/Group/GroupList"> <span class="glyphicon glyphicon-paperclip"></span> Groups</a>
+        </li>
+        <li>
+            <a href="~/Account/AccountList"> <span class="glyphicon glyphicon-link"></span> Accounts</a>
+
+        </li>
+
+
+        <li>
+            @Html.ActionLink("التقارير", "Report", "Ticket")
+
+        </li>
+    }
+</ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Welcome,@HttpContext.Current.User.Identity.Name</a></li>
+        <li>
+            @Html.ActionLink("Logout", "LogOff", "login")
+        </li>
+    </ul>
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>
+            <a href="~/login/login"> <span class="glyphicon glyphicon-log-in"></span> login</a>
+
+        </li>
+    </ul>
+}

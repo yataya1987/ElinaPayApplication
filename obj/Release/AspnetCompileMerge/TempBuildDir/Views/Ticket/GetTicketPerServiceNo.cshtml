@@ -1,0 +1,130 @@
+﻿@model IEnumerable<BnetApplication.Models.TicketSearch>
+@{
+    Layout = null;
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading clearfix">
+        <h4 class="">اخر عشرة متابعات سابقة</h4>
+
+    </div>
+
+    <div class="panel-body">
+
+        <div class="table-responsive" style="    max-width: 100%;max-height:80%;
+    overflow: scroll; ">
+            <table class="table table-bordered table-hover table-condensed">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Idate)
+                    </th>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.CallAddress)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.CALLTYPE)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProblemType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Router)
+                    </th>
+                    @*<th>
+                            @Html.DisplayNameFor(model => model.Udate)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Uuser)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.StatusInternal)
+                        </th>*@
+                    <th>
+                        @Html.DisplayNameFor(model => model.StatusExternal)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Uuserexternal)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.UdateExternal)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Idate)
+                        </td>
+                        @*<td>
+                                @Html.DisplayFor(modelItem => item.CallAddress)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CALLTYPE)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProblemType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Router)
+                        </td>
+                        @*<td>
+                                @if (item.Udate.ToString() != "1/1/2000 12:00:00 AM")
+                                {
+                                    @Html.DisplayFor(modelItem => item.Udate)
+
+                                }
+                                else
+                                {
+
+                                }
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Uuser)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.StatusInternal)
+                            </td>*@
+                        <td>
+                            @Html.DisplayFor(modelItem => item.StatusExternal)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Uuserexternal)
+                        </td>
+                        <td>
+
+                            @if (item.UdateExternal.ToString() != "1/1/2000 12:00:00 AM")
+                            {
+                                @Html.DisplayFor(modelItem => item.UdateExternal)
+
+                            }
+                            else
+                            {
+
+                            }
+                        </td>
+                        <td>
+                            @*@Html.ActionLink("تفاصيل المتابعة", "Details", new { id = item.Id })*@
+
+                            <button type="button" onclick="showmodel(@item.Id)" class="btn btn-info">تفاصيل المتابعة</button>
+
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<script>    
+    document.getElementById("SubscriberFirstName").value = "@ViewBag.firstName";
+    document.getElementById("SubscriberSecName").value = "@ViewBag.secName";
+    document.getElementById("SubscriberThirdName").value = "@ViewBag.thirdName";
+    document.getElementById("SubscriberLastName").value = "@ViewBag.lastName";
+    //window.scrollBy(0, 900);
+    var elem = document.getElementById("serchTicket");
+    elem.scrollIntoView({ behavior: "smooth" });
+</script>

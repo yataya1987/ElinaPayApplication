@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BnetApplication.Models.Group>
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "GroupList";
+}
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="~/dea/index">Dashboard</a></li>
+        <li class="active">Groups List</li>
+    </ol>
+</div>
+
+<h2>GroupList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-hover table-responsive">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GroupName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.groupPrivilege)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.groupAccount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.groupStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.GroupName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.groupPrivilege)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.groupAccount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.groupStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) 
+        </td>
+    </tr>
+}
+
+</table>

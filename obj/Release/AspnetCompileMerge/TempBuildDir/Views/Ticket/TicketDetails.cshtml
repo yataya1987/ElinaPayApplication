@@ -1,0 +1,219 @@
+﻿@model BnetApplication.Models.Ticket
+@{
+    Layout = null;
+}
+<div class="col-md-8">
+    <table class="table table-hover table-bordered">
+        <thead style="background-color:lavender !important;font-weight:bold !important;">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.Id)</td>
+                <td>@Html.DisplayNameFor(model => model.CallType)</td>
+                <td>@Html.DisplayNameFor(model => model.Ani)</td>
+                <td>@Html.DisplayNameFor(model => model.SubscriberName)</td>
+                <td>@Html.DisplayNameFor(model => model.Gender)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.Id)</td>
+                <td>@Html.DisplayFor(model => model.CallType)</td>
+                <td>@Html.DisplayFor(model => model.Ani)</td>
+                <td>@Html.DisplayFor(model => model.SubscriberName)</td>
+                <td>@Html.DisplayFor(model => model.Gender)</td>
+            </tr>
+        </tbody>
+        <thead style="background-color:lavender !important;font-weight:bold !important;">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.ServiceNumber)</td>
+                <td>@Html.DisplayNameFor(model => model.AlternativeNumber)</td>
+                <td>@Html.DisplayNameFor(model => model.Router)</td>
+                <td>@Html.DisplayNameFor(model => model.Iuser)</td>
+                <td>@Html.DisplayNameFor(model => model.Idate)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.ServiceNumber)</td>
+                <td>@Html.DisplayFor(model => model.AlternativeNumber)</td>
+                <td>@Html.DisplayFor(model => model.Router)</td>
+                <td>@Html.DisplayFor(model => model.Iuser)</td>
+                <td>@Html.DisplayFor(model => model.Idate)</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <table class="table table-hover table-bordered">
+        <thead style="background-color:lavender !important;font-weight:bold !important;">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.StatusExternal)</td>
+                <td>@Html.DisplayNameFor(model => model.TicketExternalAction)</td>
+                <td>@Html.DisplayNameFor(model => model.UdateExternal)</td>
+                <td>@Html.DisplayNameFor(model => model.UuserExternal)</td>
+                <td>@Html.DisplayNameFor(model => model.FollowUp)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.StatusExternal)</td>
+                <td>@Html.DisplayFor(model => model.TicketExternalAction)</td>
+                <td>@Html.DisplayFor(model => model.UdateExternal)</td>
+                <td>@Html.DisplayFor(model => model.UuserExternal)</td>
+                <td>@Html.DisplayFor(model => model.FollowUp)</td>
+            </tr>
+        </tbody>
+        <thead style="background-color:lavender !important;font-weight:bold !important;">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.Udate)</td>
+                <td>@Html.DisplayNameFor(model => model.Uuser)</td>
+                <td>@Html.DisplayNameFor(model => model.AgentUdate)</td>
+                <td>@Html.DisplayNameFor(model => model.AgentUpdate)</td>
+                <td>@Html.DisplayNameFor(model => model.AgentUNote)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.Udate)</td>
+                <td>@Html.DisplayFor(model => model.Uuser)</td>
+                <td>@Html.DisplayFor(model => model.AgentUdate)</td>
+                <td>@Html.DisplayFor(model => model.AgentUpdate)</td>
+                <td>@Html.DisplayFor(model => model.AgentUNote)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="table table-hover table-bordered">
+        <thead style="background-color:lavender !important;font-weight:bold !important;">
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.ProblemType)</td>
+                <td>@Html.DisplayNameFor(model => model.TicketDetails)</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width:30% !important;">@Html.DisplayFor(model => model.ProblemType)</td>
+                <td>@Html.DisplayFor(model => model.TicketDetails)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+@if (Model.StatusExternal == "جديد" || Model.StatusExternal == "قيد المتابعة" || Model.StatusInternal == "جديد" || Model.StatusInternal == "قيد المتابعة")
+{
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading clearfix">
+                <h4 class="">اضافة تفاصيل جديدة </h4>
+
+            </div>
+
+            <div class="panel-body">
+                <form name="Agentupdate" id="Agentupdate">
+                    <input type="hidden" id="Id" name="Id" value="@Model.Id">
+                    
+                    <div class="input-group">
+                        <span class="input-group-addon">جهة المتابعة</span>
+                        <textarea rows="4" type="text" class="form-control" id="AgentUNote" name="AgentUNote"></textarea>
+
+                    </div> 
+
+                    <br>
+                    <button id="UpdateTicket" class="btn btn-success btn-block">حفظ</button>
+
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+}
+@if (Model.CallType == "مشكلة فنية" && Model.StatusExternal != "تم فتح المتابعة")
+{
+    <div class="col-md-6 col-md-offset-3">
+        <a href="~/Ticket/AddTicket?ani=@Model.Ani&seriveNum=@Model.ServiceNumber&subscName=@Model.SubscriberName&
+           callType=@Model.CallType&refNum=@Model.AlternativeNumber&ticketDetails=@Model.TicketDetails&
+           problemType=@Model.ProblemType" class="btn btn-info btn-block">ReOpen Ticket</a>
+    </div>
+}
+
+<script>
+
+    $(function () {
+        $("form[name='Agentupdate']").validate({
+            // Specify validation rules
+            rules: {
+                // The key name on the left side is the name attribute
+                // of an input field. Validation rules are defined
+                // on the right side
+                AgentUNote: "required"
+
+            },
+            // Specify validation error messages
+            messages: {
+                AgentUNote: "الرجاء ادخال التفاصيل"
+
+            },
+            // Make sure the form is submitted to the destination defined
+            // in the "action" attribute of the form when valid
+            submitHandler: function (form) {
+                $.alert({
+                    title: 'اضافة تفاصيل',
+                    content: 'هل انت متأكد من البيانات المدخلة وتريد حفظ التفاصيل الجديدة للمتابعة؟',
+                    rtl: true,
+                    closeIcon: true,
+                    buttons: {
+                        confirm: {
+                            text: 'تأكيد',
+                            btnClass: 'btn-blue',
+                            action: function () {
+
+                                $.alert({
+                                    title: 'تنبه !',
+                                    content: function () {
+                                        var self = this;
+                                        //self.setContent('Checking callback flow');
+                                        var form = $("#Agentupdate");
+
+                                        return $.ajax({
+                                            url: '@Url.Action("UpdateAgentTickit", "Ticket")',
+                                            data: form.serialize(),
+                                            type: 'POST',
+                                            success: function (data) {
+                                                //Show popup
+                                                if (data.ms == "Success") {
+                                                    self.setContentAppend('<div><h3>تمت التعديل بنجاح</h3></div>');
+                                                    $('#myModal').modal('hide');
+                                                }
+                                                else {
+                                                    self.setContentAppend('<div><h3>حدث خطأ اثناء التعديل</h3></div>' + data.ms);
+
+                                                }
+
+
+                                            },
+                                            error: function (data) {
+                                                //Show popup
+                                                self.setContentAppend('<div>حدث خطأ اثناء التعديل</div>');
+
+                                            }
+                                        });
+                                    }
+                                });
+                            }
+                        },
+                        cancel: {
+                            text: 'الغاء',
+                            action: function () {
+                            }
+                        }
+                    }
+                });
+
+            }
+        });
+    })
+    $('#UpdateTicket').click(function () {
+
+    })
+</script>
+

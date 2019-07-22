@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Reach Login PlatForm</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrapRtl.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/5.ico" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/responsive.bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+
+    <link href="~/Content/buttons.dataTables.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+
+                        <img src="~/Images/logo.png" width="73" />
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    @*<ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>*@
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+                    <ul class="nav navbar-nav navbar-right">
+                        @if (User.IsInRole("Agent"))
+                        {
+
+                            if (Request.Url.ToString().Contains("Nightshift"))
+                            {
+                                <li style="font-size:large">
+                                    @Html.ActionLink("Add Ticket", "AddTicket", "Ticket")
+                                </li>
+                            }
+                            else
+                            {
+                                <li style="font-size:large">
+                                    @Html.ActionLink("Night Shift Tickets", "Nightshift", "Ticket")
+                                </li>
+                            }
+
+                        }
+
+                        <li style="font-size:large"><a href="#">Welcome,@HttpContext.Current.User.Identity.Name</a></li>
+
+                        <li style="font-size:large">
+                            @Html.ActionLink("Logout", "LogOff", "login")
+                        </li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li>
+                                @Html.ActionLink("التقارير", "Report", "Ticket")
+                            </li>
+                            <li>
+                                @Html.ActionLink("الادارة", "Index", "Dea")
+                            </li>
+                        }
+                    </ul>
+
+                    }
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="row">
+
+
+            <div class="container-fluid" style="margin-top:5%">
+                @RenderBody()
+                <hr />
+
+
+
+            </div>
+            <center>
+                <footer>
+                    <p>&copy;  <span style="color: #95ce74;">Reach</span><img src="~/Images/5.png" width="40" height="40" />@DateTime.Now.Year. All rights reserved</p>
+                </footer>
+            </center>
+        </div>
+    </div>
+
+
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/scripts/bootstrapRtl.min.js"></script>
+    <link href="~/Content/jquery-confirm.min.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-confirm.min.js"></script>
+
+
+    <script src="~/scripts/jquery.dataTables.min.js"></script>
+    <script src="~/scripts/dataTables.bootstrap4.min.js"></script>
+    <script src="~/scripts/dataTables.buttons.min.js"></script>
+    <script src="~/scripts/buttons.flash.min.js"></script>
+    <script src="~/scripts/jszip.min.js"></script>
+    <script src="~/scripts/pdfmake.min.js"></script>
+    <script src="~/scripts/vfs_fonts.js"></script>
+    <script src="~/scripts/buttons.html5.min.js"></script>
+    <script src="~/scripts/buttons.print.min.js"></script>
+
+
+    <script src="~/scripts/SiteScript.js"></script>
+    <script src="~/scripts/moment.min.js"></script>
+    <script src="~/scripts/datetime-moment.js"></script>
+    <script src="~/scripts/bootstrap-datetimepicker.min.js"></script>
+
+    @RenderSection("scripts", false);
+</body>
+</html>

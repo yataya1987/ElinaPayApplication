@@ -1,0 +1,626 @@
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.dll.config
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.pdb
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Newtonsoft.Json.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Helpers.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Mvc.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Razor.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Razor.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Helpers.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Mvc.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Newtonsoft.Json.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.dll
+C:\Users\ayman.daqa\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.pdb
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\BnetApplication.dll.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\BnetApplication.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\BnetApplication.pdb
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csc.exe
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csc.exe.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csc.rsp
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csi.exe
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csi.exe.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\csi.rsp
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.AppContext.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Console.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Claims.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\vbc.exe
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\vbc.exe.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\vbc.rsp
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Logger.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\LogInLibrary.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Newtonsoft.Json.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Owin.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\PagedList.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\PagedList.Mvc.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Helpers.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Http.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Mvc.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Razor.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\LogInLibrary.pdb
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\LogInLibrary.dll.config
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\PagedList.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\PagedList.Mvc.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Razor.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Helpers.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Mvc.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Newtonsoft.Json.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Http.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\obj\Release\BnetApplication.dll
+C:\Users\ayman.daqa\Desktop\BnetApplicationnew\BnetApplication\BnetApplication\obj\Release\BnetApplication.pdb
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.dll.config
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\BnetApplication.pdb
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csc.exe
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csc.exe.config
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csc.rsp
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csi.exe
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csi.exe.config
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\csi.rsp
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.AppContext.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Console.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Claims.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\vbc.exe
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\vbc.exe.config
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\vbc.rsp
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Newtonsoft.Json.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Owin.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Helpers.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Mvc.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Razor.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Razor.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Helpers.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Mvc.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Newtonsoft.Json.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.dll
+C:\Users\Sabeel.Omair\Desktop\BnetApplication\BnetApplication\obj\Release\BnetApplication.pdb
+D:\Project\BnetApplication2\BnetApplication\bin\BnetApplication.dll.config
+D:\Project\BnetApplication2\BnetApplication\bin\BnetApplication.dll
+D:\Project\BnetApplication2\BnetApplication\bin\BnetApplication.pdb
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csc.exe
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csc.exe.config
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csc.rsp
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csi.exe
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csi.exe.config
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\csi.rsp
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.AppContext.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Console.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.IO.Compression.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Claims.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.ValueTuple.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\vbc.exe
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\vbc.exe.config
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\vbc.rsp
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\VBCSCompiler.exe
+D:\Project\BnetApplication2\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Newtonsoft.Json.dll
+D:\Project\BnetApplication2\BnetApplication\bin\Owin.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Net.Http.Formatting.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Helpers.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Http.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Http.WebHost.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Mvc.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Razor.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.dll
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.Razor.dll
+D:\Project\BnetApplication2\BnetApplication\bin\LogInLibrary.pdb
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Project\BnetApplication2\BnetApplication\bin\PagedList.xml
+D:\Project\BnetApplication2\BnetApplication\bin\PagedList.Mvc.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Razor.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Webpages.Razor.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Helpers.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Mvc.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Newtonsoft.Json.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Net.Http.Formatting.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Http.xml
+D:\Project\BnetApplication2\BnetApplication\bin\System.Web.Http.WebHost.xml
+D:\Project\BnetApplication2\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\BnetApplication2\BnetApplication\obj\Release\BnetApplication.dll
+D:\Project\BnetApplication2\BnetApplication\obj\Release\BnetApplication.pdb
+E:\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.dll.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.pdb
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.exe
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.exe.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.rsp
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.exe
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.exe.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.rsp
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.AppContext.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Console.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Compression.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Claims.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.ValueTuple.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.exe
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.exe.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.rsp
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe
+E:\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Newtonsoft.Json.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Owin.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Helpers.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Mvc.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Razor.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.dll
+E:\Bnet Project\BnetApplication\BnetApplication\bin\LogInLibrary.pdb
+E:\Bnet Project\BnetApplication\BnetApplication\bin\LogInLibrary.dll.config
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\PagedList.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\PagedList.Mvc.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Razor.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Helpers.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Mvc.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Newtonsoft.Json.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.xml
+E:\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+E:\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+E:\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+E:\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.dll
+E:\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.pdb
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.dll.config
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\BnetApplication.pdb
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.exe
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.exe.config
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csc.rsp
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.exe
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.exe.config
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\csi.rsp
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.AppContext.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Console.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Compression.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Claims.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.ValueTuple.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.exe
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.exe.config
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\vbc.rsp
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\EntityFramework.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\EntityFramework.SqlServer.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Newtonsoft.Json.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Owin.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Helpers.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Mvc.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Razor.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\EntityFramework.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\EntityFramework.SqlServer.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Razor.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Webpages.Razor.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Helpers.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Mvc.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Newtonsoft.Json.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Net.Http.Formatting.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\System.Web.Http.WebHost.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.dll
+E:\Sameh.frihat\Bnet Project\BnetApplication\BnetApplication\obj\Release\BnetApplication.pdb
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\BnetApplication.dll.config
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\BnetApplication.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\BnetApplication.pdb
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csc.exe
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csc.exe.config
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csc.rsp
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csi.exe
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csi.exe.config
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\csi.rsp
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.AppContext.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Collections.Immutable.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Console.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.IO.Compression.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.IO.FileSystem.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.IO.Pipes.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Reflection.Metadata.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.AccessControl.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Claims.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.ValueTuple.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Xml.XPath.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\vbc.exe
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\vbc.exe.config
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\vbc.rsp
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\VBCSCompiler.exe
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\roslyn\VBCSCompiler.exe.config
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\EntityFramework.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\EntityFramework.SqlServer.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Web.Infrastructure.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Newtonsoft.Json.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Owin.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Net.Http.Formatting.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Helpers.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Http.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Http.WebHost.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Mvc.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Razor.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.Deployment.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.Razor.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\EntityFramework.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\EntityFramework.SqlServer.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Razor.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.Deployment.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Webpages.Razor.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Helpers.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Mvc.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Newtonsoft.Json.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Net.Http.Formatting.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Http.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\System.Web.Http.WebHost.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Sameh.frihat\BnetProject\BnetApplication\obj\Release\BnetApplication.csprojAssemblyReference.cache
+E:\Sameh.frihat\BnetProject\BnetApplication\obj\Release\BnetApplication.csproj.CoreCompileInputs.cache
+E:\Sameh.frihat\BnetProject\BnetApplication\obj\Release\BnetApplication.csproj.CopyComplete
+E:\Sameh.frihat\BnetProject\BnetApplication\obj\Release\BnetApplication.dll
+E:\Sameh.frihat\BnetProject\BnetApplication\obj\Release\BnetApplication.pdb

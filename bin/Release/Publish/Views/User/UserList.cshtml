@@ -1,0 +1,131 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<BnetApplication.Models.User>
+
+
+@{
+    ViewBag.Title = "UserList";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+<style>
+    input, select, textarea {
+    max-width: 100%;
+}
+</style>
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="~/dea/index">Dashboard</a></li>
+        <li >Users</li>
+        <li class="active">Users List</li>
+    </ol>
+</div>
+<h2>User List</h2>
+<div class="alert " id="error-div" style="display:none">
+    <strong id="view-err"> </strong>
+</div>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+    @using (Html.BeginForm("UserList", "User", FormMethod.Get))
+    {
+        <div class="col-lg-6">
+            <div class="input-group">
+                @Html.TextBox("search", "",new { @class= "form-control" })
+                <span class="input-group-btn">
+                    <button  class="btn btn-secondary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+    }
+<br />
+<hr />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().userName)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.First().userPrivilege)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().userAuthType)
+        </th>
+       
+  
+        <th>
+            @Html.DisplayNameFor(model => model.First().userEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().userMobile)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().userIP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().userStatus)
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.userName)
+        </td>
+     
+        <td>
+            @Html.DisplayFor(modelItem => item.userPrivilege)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userAuthType)
+        </td>
+     
+        <td>
+            @Html.DisplayFor(modelItem => item.userEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userMobile)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userIP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.userStatus)
+        </td>
+        <td>
+            @if (item.userStatus != "Enabled")
+            {
+                @*@Html.ActionLink("Edit", "Edit", new { id = item.UserID })*@
+                @*<a href="~/User/Enable/@item.UserID " ><span class="glyphicon glyphicon-lock"></span></a>*@
+                <button class="btn btn-danger" onclick="enabeledDisabled('@item.UserID','1')"><span class="glyphicon glyphicon-lock"></span></button>
+
+            }
+            else
+            {
+                <button class="btn btn-danger" onclick="enabeledDisabled('@item.UserID','0')"><span class="glyphicon glyphicon-ok"></span></button>
+
+                @*<a href="~/User/Enable/@item.UserID "><span class="glyphicon glyphicon-ok"></span></a>*@
+
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.UserID })
+        </td>
+    </tr>
+}
+
+</table>
+@Html.PagedListPager(Model, page => Url.Action("UserList", new { page, search = Request.QueryString["search"] }),
+    new PagedListRenderOptions()
+    {
+        Display = PagedListDisplayMode.IfNeeded,
+        DisplayPageCountAndCurrentLocation = true
+    ,
+        DisplayItemSliceAndTotal = true
+    })
+<script src="~/scripts/Users.js"></script>

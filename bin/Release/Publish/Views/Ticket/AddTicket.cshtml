@@ -1,0 +1,319 @@
+﻿@model BnetApplication.Models.TicketAdd
+
+@{
+    ViewBag.Title = "AddTicket";
+}
+
+<div class="col-md-6 col-sm-6 col-xs-12">
+    <div class="panel panel-default">
+        <div class="panel-heading clearfix">
+            <h4 class="">اضافة متابعة </h4>
+        </div>
+        <div class="panel-body">
+
+            <form id="TicketForm" name="TicketForm">
+                <div>
+                    <div class="funkyradio" style="display:-webkit-box">
+                        <div class="funkyradio-success" style="width:30%; margin-right:3%">
+                            <input type="radio" name="CallType" value="1" id="radio3" onclick='handleQ1Click(this)' ; />
+                            <label for="radio3">متابعة</label>
+                        </div>
+                        <div class="funkyradio-warning" style="width:30%; margin-right:3%">
+                            <input type="radio" name="CallType" value="2" id="radio4" onclick='handleQ1Click(this)' ; />
+                            <label for="radio4">استفسار</label>
+                        </div>
+                        <div class="funkyradio-danger" style="width:30%; margin-right:3%">
+                            <input type="radio" value="3" name="CallType" id="radio5" onclick='handleQ1Click(this)' ; />
+                            <label for="radio5">شكوى</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-addon">نوع المكالمة</span>
+                    <input type="text" class="form-control" id="caltypevalid" name="caltypevalid" readonly>
+                </div>
+
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">رقم المتصل</span>
+                    <input type="text" class="form-control" id="ani" name="Ani">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">اسم المشترك</span>
+                    <input type="text" name="SubscriberName" id="SubscriberName" class="form-control" placeholder="">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">رقم الخدمة</span>
+
+                    <input type="text" id="ServiceNumber" name="ServiceNumber" class="form-control" placeholder="">
+                    <span class="input-group-btn">
+
+                        <button class="btn btn-default" id="TeckiSerchBtn" type="button"> 970 |  فحص طلبات سابقة </button>
+
+                    </span>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">رقم للرجوع /رقم التواصل</span>
+                    <input type="text" id="AlternativeNumber" name="AlternativeNumber" regex="/^[0-9]{3}$/i" class="form-control" placeholder="">
+                </div>
+                <br>
+
+                <div class="input-group" id="main" style="display:none">
+                    <span class="input-group-addon">العنوان الرئيسي</span>
+                    @Html.DropDownList("CallAddress", ViewData["CallAddress"] as IEnumerable<SelectListItem>, "اختار العنوان الرئيسي", new { @class = "form-control input-lg" })
+
+                </div>
+
+                <br>
+                <div class="input-group" id="prob" style="display:none">
+                    <span class="input-group-addon">عنوان المشكلة</span>
+                    @Html.DropDownList("ProblemType", ViewData["ProblemType"] as IEnumerable<SelectListItem>, "اختار عنوان المشكلة", new { @class = "form-control input-lg" })
+                    <input type="text" id="OthersProblemType" name="OthersProblemType" class="form-control" style="display:none" placeholder="اكتب عنوان المشكلة">
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">التفاصيل</span>
+                    <textarea rows="4" type="text" class="form-control" id="TicketDetails" name="TicketDetails"></textarea>
+
+                </div>
+
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">نوع الراوتر</span>
+                    @Html.DropDownList("Router", ViewData["Router"] as IEnumerable<SelectListItem>, "اختار نوع الراوتر", new { @class = "form-control input-lg" })
+                </div>
+                <br>
+                <button id="save" class="btn btn-success btn-block alert">حفظ</button>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+<div class="col-md-6">
+    <div id="serchTicket">
+
+    </div>
+</div>
+
+<div id="loader" style="display:none"></div>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">تفاصيل المتابعة</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="modelPage">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section scripts{
+    @*<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>*@
+    <script src="~/scripts/jquery.validate.min.js"></script>
+    <script src="~/scripts/form-validation.js"></script>
+    <script>
+
+
+        $(function () {
+            // Initialize form validation on the registration form.
+            // It has the name attribute "registration"
+            $("form[name='TicketForm']").validate({
+                // Specify validation rules
+                rules: {
+                    // The key name on the left side is the name attribute
+                    // of an input field. Validation rules are defined
+                    // on the right side
+                    CallType: "required",
+                    caltypevalid: "required",
+                    Ani: {
+                        required: true,
+                        AniValidation: true
+                    },
+                    SubscriberName: "required",
+                    AlternativeNumber: {
+                        AlternativeNumberValidation: true
+                    },
+                    Router: "required",
+                    ServiceNumber: {
+                        required: true,
+                        ServiceNumberValidation: true
+                    },
+                    OthersProblemType: {
+                        required: true,
+                    }
+                },
+                // Specify validation error messages
+                messages: {
+                  CallType: "الرجاء اختيار نوع المكالمة",
+                    Ani: {
+                        required: "الرجاء ادخال رقم المتصل",
+                        AniValidation: "الرجاء ادخال رقم المتصل بشكل صحيح"
+                    },
+                    SubscriberName: "الرجاء ادخال اسم المشترك",
+                    AlternativeNumber: "الرجاء ادخال رقم الرجوع بالشكل الصحيح(05xxxxxxxx)",
+                    Router: "الرجاء اختيار نوع الراوتر",
+                    caltypevalid: "الرجاء اختيار نوع المكالمة",
+                    ServiceNumber: {
+                        required: "الرجاء ادخال رقم الخدمة",
+                        ServiceNumberValidation: "الرجاء ادخال رقم  الخدمة بشكل صحيح"
+                    },
+                    OthersProblemType: {
+                        required: "الرجاء اختيار عنوان المشكلة"
+                    }
+                },
+                // Make sure the form is submitted to the destination defined
+                // in the "action" attribute of the form when valid
+                submitHandler: function (form) {
+                    $.alert({
+                        title: 'حفظ المتابعة',
+                        content: 'هل انت متأكد من البيانات المدخلة وتريد حفظ المتابعة؟',
+                        rtl: true,
+                        closeIcon: true,
+                        buttons: {
+                            confirm: {
+                                text: 'تأكيد',
+                                btnClass: 'btn-blue',
+                                action: function () {
+
+                                    $.alert({
+                                        title: 'تنبه !',
+                                        content: function () {
+                                            var self = this;
+                                            //self.setContent('Checking callback flow');
+                                            var form = $("#TicketForm");
+
+                                            return $.ajax({
+                                                url: '@Url.Action("AddTicket", "Ticket")',
+                                                data: form.serialize(),
+                                                type: 'POST',
+
+                                                success: function (data) {
+                                                    //Show popup
+                                                    if (data.ms == "Success") {
+                                                        self.setContentAppend('<div><h3>تمت الاضافة بنجاح</h3></div>');
+                                                        document.getElementById("TicketForm").reset();
+                                                    }
+                                                    else {
+                                                        self.setContentAppend('<div><h3>حدث خطأ اثناء الاضافة</h3></div>' + data.ms);
+
+                                                    }
+
+
+                                                },
+                                                error: function (data) {
+                                                    //Show popup
+                                                    self.setContentAppend('<div>حدث خطأ اثناء الاضافة</div>');
+
+                                                }
+                                            });
+                                        }
+                                    });
+                                }
+                            },
+                            cancel: {
+                                text: 'الغاء',
+                                action: function () {
+                                }
+                            }
+                        }
+                    });
+                }
+            });
+
+
+
+        });
+
+
+
+        $.validator.methods.ServiceNumberValidation = function (value, element) {
+            return this.optional(element) || /^[0-9]{8}$/.test(value);
+        };
+
+        $.validator.methods.AlternativeNumberValidation = function (value, element) {
+            return this.optional(element) || /^(05)+[0-9]{8}$/.test(value);
+        }
+
+        $.validator.methods.AniValidation = function (value, element) {
+            return this.optional(element) || /^[0-9]{6,13}$/.test(value);
+        }
+        $('#TeckiSerchBtn').click(function () {
+            document.getElementById("loader").style.display = "block";
+            $('#serchTicket').load('@Url.Action("GEtTicketPerServiceNo", "Ticket")' + '?no=' + $("#ServiceNumber").val());
+            setTimeout(function () {
+                document.getElementById("loader").style.display = "none";
+
+            }, 1000);
+        })
+
+        var showmodel = function (No) {
+            document.getElementById("loader").style.display = "block";
+            $('#modelPage').load('@Url.Action("TicketDetails", "Ticket")'+'?no=' + No);
+            setTimeout(function () {
+                document.getElementById("loader").style.display = "none";
+
+            }, 1000);
+            $('#myModal').modal('show');
+        }
+
+    document.getElementById("ani").value = "@ViewBag.ANI";
+
+    $("#ProblemType").change(function () {
+    if ($("#ProblemType").val() == "اخرى") {
+    $("#OthersProblemType").show();
+
+    }
+    else {
+    $("#OthersProblemType").hide();
+    $("#OthersProblemType").val($("#OthersProblemType").val());
+    }
+    });
+
+    function handleQ1Click(myRadio) {
+    //alert("Nation");
+    if (myRadio.value == 1) {
+        $("#prob").show();
+        $("#main").show();
+    $('#caltypevalid').val("متابعة");
+
+    }
+    else if (myRadio.value == 2) {
+
+    $("#OthersProblemType").val("  ");
+    $("#prob").hide();
+    $("#main").show();
+    $('#caltypevalid').val("استفسار");
+
+    }
+    else if (myRadio.value == 3) {
+
+    $("#OthersProblemType").val("  ");
+    $("#prob").hide();
+    $("#main").show();
+    $('#caltypevalid').val("شكوى");
+    }
+
+    }
+    </script>
+
+}
+
+
+

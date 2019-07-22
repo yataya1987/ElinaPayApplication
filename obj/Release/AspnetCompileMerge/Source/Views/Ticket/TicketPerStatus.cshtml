@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewBag.Title = "TicketPerStatus";
+}
+
+
+<div class="container">
+
+
+    <div class="panel panel-default">
+
+
+        <div class="panel-body">
+
+
+            <form id="form">
+                <div class="col-md-8">
+                    <div class="funkyradio" style="display:-webkit-box">
+                        <div class="funkyradio-success" style="width:30%; margin-right:3%">
+                            <input checked="checked" type="radio" name="CallType" value="1" id="radio3" />
+                            <label for="radio3">متابعة</label>
+                        </div>
+                        <div class="funkyradio-danger" style="width:30%; margin-right:3%">
+                            <input type="radio" value="3" name="CallType" id="radio5" />
+                            <label for="radio5">شكوى</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="input-group ">
+                        <span class="input-group-addon">الحالة</span>
+                        @Html.DropDownList("Status", ViewData["Status1"] as IEnumerable<SelectListItem>, null, new { @class = "form-control", @id = "Status" })
+
+                    </div>
+                    <br />
+
+                </div>
+
+
+            </form>
+
+            <div class="">
+                <button id="search" class="btn btn-info btn-lg">بحث</button>
+
+            </div>
+        </div>
+    </div>
+    <br />
+
+    <div class="panel panel-default">
+
+
+        <div class="panel-body">
+            <div style="width:90%; margin:0 auto;">
+                <table id="demoGrid" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>رقم المكالمة</th>
+                            <th>الحالة</th>
+                            <th>اسم المشترك</th>
+                            <th>رقم المشترك</th>
+                            <th>اسم الموظف</th>
+                            <th>وقت ارسال المتابعة</th>
+                            <th>تفاصيل</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">تفاصيل المتابعة</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="modelPageupdate">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">خروج</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loader" style="display:none"></div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+
+        });
+
+        var table = $("#demoGrid").DataTable({
+
+            "processing": true,
+            "ajax": {
+                "url": "@Url.Action("TicketPerStatus1", "Ticket")",
+                "data": function (d) {
+                    var Status = $("#Status").val();
+                    var CallType = $("input[name=CallType]:checked").val();
+                    d.Status = Status;
+                    d.CallType = CallType;
+                },
+                "type": "POST",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "Id" },
+                { "data": "StatusInternal" },
+                { "data": "SubscriberName" },
+                { "data": "ServiceNumber" },
+                { "data": "Iuser" },
+                {
+                    "data": "Idate","render": function (d) { return moment(d).format("DD/MM/YYYY HH:mm:ss"); }
+                },
+                {
+                    "render": function (data, type, full, meta) { return '<button class="btn btn-info" onclick="showmodel(' + full.Id + ')">Details</button>'; }
+                }
+            ]
+        });
+
+        $("input[name=CallType]").click(function () {
+            //CallType = $("input[name=CallType]").val();
+            //table.ajax.reload();
+            //alert($("input[name=CallType]").val());
+
+        });
+
+        $("#Status").change(function () {
+            //    Status = $("#Status").val();
+            //    table.ajax.reload();
+            //    alert($("#Status").val());
+        });
+
+        $("#search").click(function () {
+            table.ajax.reload();
+        });
+
+        var showmodel = function (No) {
+            document.getElementById("loader").style.display = "block";
+            $('#modelPageupdate').load('@Url.Action("UpdateTicketInternal", "Ticket")' + '?id=' + No);
+            setTimeout(function () {
+                document.getElementById("loader").style.display = "none";
+
+            }, 1000);
+            $('#myModal').modal('show');
+        };
+
+      
+    </script>
+
+
+
+    @*<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>*@
+    <script src="~/scripts/jquery.validate.min.js"></script>
+    <script src="~/scripts/form-validation.js"></script>
+
+
+}

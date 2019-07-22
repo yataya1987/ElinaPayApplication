@@ -1,0 +1,134 @@
+﻿@model IEnumerable<BnetApplication.Models.User>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<section id="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="index.html" class="list-group-item active main-color-bg">
+                        <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Dashboard
+                    </a>
+                    <a href="~/Group/GroupList" class="list-group-item"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> GROUPS <span class="badge">@ViewBag.GROUPS</span></a>
+                    <a href="~/Account/AccountList" class="list-group-item"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> Account <span class="badge">@ViewBag.Account</span></a>
+                    <a href="~/Skill/Index" class="list-group-item"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Skill <span class="badge">@ViewBag.Skill</span></a>
+                    <a href="~/User/UserList" class="list-group-item"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Users <span class="badge">@ViewBag.count</span></a>
+                </div>
+
+                <div class="well">
+                    <h4>Disk Space Used</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="@ViewBag.count" aria-valuemin="0" aria-valuemax="@ViewBag.count" style="width: @ViewBag.count%;">
+                            @ViewBag.count%
+                        </div>
+                    </div>
+                    <h4>Bandwidth Used </h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                            40%
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-9">
+                <!-- Website Overview -->
+                <div class="panel panel-default">
+                    <div class="panel-heading main-color-bg">
+                        <h3 class="panel-title">Website Overview</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="col-md-3">
+                            <div class="well dash-box">
+                                <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> @ViewBag.count</h2>
+                                <h4>Users</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="well dash-box">
+                                <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> @ViewBag.Skill</h2>
+                                <h4>Skill</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="well dash-box">
+                                <h2><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> @ViewBag.Account</h2>
+                                <h4>Account</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="well dash-box">
+                                <h2><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span><strong id="counter"></strong></h2>
+                                <h4>OnLine Users</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Latest Users -->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Last Users</h3>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-hover table-responsive">
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.userName)
+                                </th>
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.userPrivilege)
+                                </th>
+
+
+                                <th>
+                                    @Html.DisplayNameFor(model => model.userEmail)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.userMobile)
+                                </th>
+
+                                <th>@Html.DisplayNameFor(model => model.Idate)</th>
+                            </tr>
+
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.userName)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.userPrivilege)
+                                    </td>
+
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.userEmail)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.userMobile)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Idate)
+                                    </td>
+                                </tr>
+                            }
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scrips{
+
+    
+    }

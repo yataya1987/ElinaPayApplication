@@ -1,0 +1,134 @@
+﻿@model BnetApplication.Models.ForgotPasswoard
+
+@{
+    ViewBag.Title = "ForgotPasswoard";
+}
+<style>
+    body, html {
+        /*height: 100%;
+    background-repeat: no-repeat;
+    background-color: #d3d3d3;*/
+        font-family: 'Oxygen', sans-serif;
+    }
+
+
+
+    h1.title {
+        font-size: 50px;
+        font-family: 'Passion One', cursive;
+        font-weight: 400;
+    }
+
+    hr {
+        width: 10%;
+        color: #fff;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        margin-bottom: 15px;
+    }
+
+    input,
+    input::-webkit-input-placeholder {
+        font-size: 11px;
+        padding-top: 3px;
+    }
+
+    .main-login {
+        background-color: #fff;
+        /* shadows and rounded borders */
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    .main-center {
+        margin-top: 30px;
+        margin: 0 auto;
+        max-width: 330px;
+        padding: 40px 40px;
+    }
+
+    .panel-heading {
+        padding: 0;
+    }
+
+    .login-button {
+        margin-top: 5px;
+    }
+
+    .login-register {
+        font-size: 11px;
+        text-align: center;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="row main">
+
+        <div class="panel-heading">
+            <div class="panel-title text-center">
+                <h4>ForgotPasswoard</h4>
+                <hr />
+            </div>
+        </div>
+        <div class="main-login main-center">
+
+            @if (ViewBag.mes != null)
+            {
+                <div class="alert alert-success alert-danger">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                    <strong>Erorr!</strong> @ViewBag.mes.
+                </div>
+            }
+            <div class="form-horizontal">
+                
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="form-group">
+                    @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "cols-sm-2 control-label" })
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                            @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.UserType, htmlAttributes: new { @class = "cols-sm-2 control-label" })
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-tag"></span></span>
+                            @Html.DropDownListFor(model => model.UserType, ViewData["UserType"] as IEnumerable<SelectListItem>, "Select User type", new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.UserType, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-6">
+                        <input type="submit" value="Send" class="btn btn-info" />
+                    </div>
+                    <div class="col-md-6">
+                        <a href="~/login/login" value="Send" class="btn btn-success" >login</a>
+                    </div>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+}
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/jquery.validate.min.js"></script>
+        <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

@@ -1,0 +1,222 @@
+﻿
+@{
+    ViewBag.Title = "Report";
+}
+<style>
+    div.dataTables_wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="container">
+    <div class="panel panel-default">
+
+
+        <div class="panel-body">
+
+            <div class="col-md-12">
+                    <div class="form-group col-md-4">
+                        <label>
+                            من:
+                        </label>
+
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type="text" class="form-control" ID="from" />
+
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label>
+                            الى:
+                        </label>
+
+                        <div class='input-group date' id='datetimepicker2'>
+                            <input type="text" class="form-control" ID="to" />
+
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+
+
+                <div class="form-group col-md-4">
+                    <button id="search" class="btn btn-info btn-lg">بحث</button>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <div class="panel panel-default">
+
+
+        <div class="panel-body">
+            <div>
+                <table id="demoGrid" class="table table-striped table-bordered dt-responsive">
+                    <thead>
+                        <tr>
+                            <th>رقم المكالمة</th>
+                            <th>نوع المكالمة</th>
+                            <th>رقم المتصل</th>
+                            <th>اسم المشترك</th>
+                            <th>رقم الخدمة</th>
+                            <th>رقم التواصل</th>
+                            <th>العنوان الرئيسي</th>
+                            <th>عنوان المشكلة</th>
+                            <th>نوع الاستفسار</th>
+                            <th>تفاصيل</th>
+                            <th>نوع الراوتر</th>
+                            <th>تاريخ الادخال</th>
+                            <th>اسم المدخل</th>
+                            <th>تاريخ تعديل المشرف</th>
+                            <th>اسم المشرف</th>
+                            <th>تاريخ التعديل من قبل الموظف</th>
+                            <th>الموظف المعدل</th>
+                            <th>ملاحظات التعديل</th>
+                            <th>حالة المشرف 1</th>
+                            <th>اجراء المشرف 1</th>
+                            <th>حالة المشرف 2</th>
+                            <th>اجراء المشرف 2</th>
+                            <th>تاريخ تعديل المشرف 2</th>
+                            <th>المشرف 2</th>
+                            <th>جهة المتابعة</th>
+                        </tr>
+                    </thead>
+
+                    <tfoot>
+                        <tr>
+                            <th>رقم المكالمة</th>
+                            <th>نوع المكالمة</th>
+                            <th>رقم المتصل</th>
+                            <th>اسم المشترك</th>
+                            <th>رقم الخدمة</th>
+                            <th>رقم التواصل</th>
+                            <th>العنوان الرئيسي</th>
+                            <th>عنوان المشكلة</th>
+                            <th>نوع الاستفسار</th>
+                            <th>تفاصيل</th>
+                            <th>نوع الراوتر</th>
+                            <th>تاريخ الادخال</th>
+                            <th>اسم المدخل</th>
+                            <th>تاريخ تعديل المشرف</th>
+                            <th>اسم المشرف</th>
+                            <th>تاريخ التعديل من قبل الموظف</th>
+                            <th>الموظف المعدل</th>
+                            <th>ملاحظات التعديل</th>
+                            <th>حالة المشرف 1</th>
+                            <th>اجراء المشرف 1</th>
+                            <th>حالة المشرف 2</th>
+                            <th>اجراء المشرف 2</th>
+                            <th>تاريخ تعديل المشرف 2</th>
+                            <th>المشرف 2</th>
+                            <th>جهة المتابعة</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+
+
+    <script>
+        $(document).ready(function () {
+
+        });
+    
+
+        $('#demoGrid tfoot th').each(function () {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="بحث في( ' + title + ')"  />');
+        });
+        var table = $("#demoGrid").DataTable({
+            
+            "dom": 'Bfrtip',
+            "buttons": [
+                'copy', 'csv', 'excel'
+            ],
+            "pageLength": 8,
+            "ajax": {
+                "url": "@Url.Action("Report1", "Ticket")",
+                "data": function (d) {
+                    var from = $("#from").val();
+                    var to = $("#to").val();
+                    d.from = from;
+                    d.to = to;
+                },
+                "type": "POST",
+                "datatype": "json"
+            },
+            "columns": [
+                { "data": "Id" },
+                { "data": "CallType" },
+                { "data": "Ani" },
+                { "data": "SubscriberName" },
+                { "data": "ServiceNumber" },
+                { "data": "AlternativeNumber" },
+                { "data": "CallAddress" },
+                { "data": "ProblemType" },
+                { "data": "questiontext"},
+                { "data": "TicketDetails" },
+                { "data": "Router" },
+                { "data": "Idate", "render": function (d) { return moment(d).format("DD/MM/YYYY HH:mm:ss"); }},
+                { "data": "Iuser" },
+                { "data": "Udate", "render": function (d) { return moment(d).format("DD/MM/YYYY HH:mm:ss"); }},
+                { "data": "Uuser" },
+                { "data": "AgentUdate", "render": function (d) { return moment(d).format("DD/MM/YYYY HH:mm:ss"); }},
+                { "data": "AgentUpdate" },
+                { "data": "AgentUNote" },
+                { "data": "StatusInternal" },
+                { "data": "TicketInternalAction" },
+                { "data": "StatusExternal" },
+                { "data": "TicketExternalAction" },
+                { "data": "UdateExternal", "render": function (d) { return moment(d).format("DD/MM/YYYY HH:mm:ss"); } },
+                { "data": "UuserExternal" },
+                { "data": "FollowUp" }
+            ],
+            "scrollX": true,
+            "processing": true
+        });
+
+        // Apply the search
+        table.columns().every(function () {
+            var that = this;
+
+            $('input', this.footer()).on('keyup change', function () {
+                if (that.search() !== this.value) {
+                    that
+                        .search(this.value)
+                        .draw();
+                }
+            });
+        });
+        $("#search").click(function () {
+            table.ajax.reload();
+        });
+
+        $(document).ready(function () {
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+                $('#datetimepicker2').datetimepicker({
+                    useCurrent: false //Important! See issue #1075
+                });
+                $("#datetimepicker1").on("dp.change", function (e) {
+                    $('#datetimepicker2').data("DateTimePicker").minDate(e.date);
+                });
+                $("#datetimepicker2").on("dp.change", function (e) {
+                    $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+                });
+            });
+        });
+    </script>}

@@ -1,0 +1,136 @@
+﻿@model BnetApplication.Models.User
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    ViewBag.Title = "Edit";
+}
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="~/dea/index">Dashboard</a></li>
+        <li><a href="~/User/UserList">Users</a></li>
+        <li class="active">Edit User</li>
+    </ol>
+</div>
+<h2>Edit User<span class="glyphicon glyphicon-edit"></span></h2>
+@if (ViewBag.mes != null)
+{
+    <div class="alert alert-success alert-danger">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Erorr!</strong> @ViewBag.mes.
+    </div>
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.UserID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.userName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.userName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.userPrivilege, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.userPrivilege, ViewData["PRIVILEGE"] as IEnumerable<SelectListItem>, "Select Privilege", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.userPrivilege, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userSkill, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.userSkill, ViewData["Skill"] as IEnumerable<SelectListItem>, "Select Skill", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.userSkill, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userAuthType, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.userAuthType, ViewBag.AuthType as IEnumerable<SelectListItem>, "Select Authenticate", new { @class = "form-control", onchange = "SelectedIndexChanged()" })
+                @Html.ValidationMessageFor(model => model.userAuthType, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" id="pass">
+            @Html.LabelFor(model => model.userPass, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.userPass, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.userPass, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group" id="Confpass">
+            @Html.LabelFor(model => model.ConfirmPass, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ConfirmPass, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ConfirmPass, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userEmail, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.userEmail, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.userEmail, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userMobile, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.userMobile, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.userMobile, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.userIP, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.userIP, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.userIP, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.userStatus, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.userStatus, ViewBag.Status as IEnumerable<SelectListItem>, "Select Status", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.userStatus, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "UserList")
+</div>
+<script>
+    function SelectedIndexChanged() {
+        var selectedText1 = $("#userAuthType").val();
+
+        if (selectedText1 == "LDAP") {
+            $("#pass").hide();
+            $("#Confpass").hide();
+            $("#ConfirmPass").val("0");
+            $("#userPass").val("0");
+        } else {
+            $("#pass").show();
+            $("#Confpass").show();
+        }
+    };
+</script>
